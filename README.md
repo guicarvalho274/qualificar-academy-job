@@ -10,3 +10,5 @@ Estamos utilizando essas linguagens:
 | PHP | PHP PURO |
 | JAVASCRIPT | JQUERY |
 | JAVASCRIPT | GSAP |
+
+ 2.

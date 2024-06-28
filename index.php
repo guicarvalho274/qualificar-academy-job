@@ -85,18 +85,19 @@
     <section class="sessao-two">
         <div class="container">
             <div class="bg">
-                <div class="flex">
-                    <div class="box">
-                        <div class="icon">
-                            <img src="<?php echo INCLUDE_PATH;?>imagens/img-box-1.svg" alt="">
-                        </div><!--icon-->
+                <div class="flex content">
+                        <div class="box">
+                            <div class="icon">
+                                <img src="<?php echo INCLUDE_PATH;?>imagens/img-box-1.svg" alt="">
+                            </div><!--icon-->
 
-                        <div class="texto">
-                            <h2>Beneficios</h2>
-                            <p>Plano de saude Hapvida + Passagem,
-                            auxílio para filhos abaixo dos 12 anos, 
-                            Plano Academia, VA em implementação</p>
-                        </div><!--texto-->
+                            <div class="texto">
+                                <h2>Beneficios</h2>
+                                <p>Plano de saude Hapvida + Passagem,
+                                auxílio para filhos abaixo dos 12 anos, 
+                                Plano Academia, VA em implementação</p>
+                            </div><!--texto-->
+                        </div><!--box-->
 
                         <div class="box">
                             <div class="icon">
@@ -110,7 +111,7 @@
                         </div><!--box-->
                         <div class="box">
                             <div class="icon">
-                                <img src="<?php echo INCLUDE_PATH;?>imagens/images/img-box-3" alt="">
+                                <img src="<?php echo INCLUDE_PATH;?>imagens/img-box-3.svg" alt="">
                             </div><!--icon-->
                             <div class="texto">
                                 <h2>Regime trabalhista</h2>
@@ -128,9 +129,9 @@
                                 <span>08h às 18h</span></p>
                             </div><!--texto-->
                         </div><!--box-->
-
-                    </div><!--box-->
+                    <h3>Salário de <span>R$ 1.550,00</span> + Comissão e bonús que podem chegar a <span>R$4.000,00 iniciais</span></h3>
                 </div><!--flex-->
+
             </div><!--bg-->
         </div><!--container-->
     </section><!--sessao--two-->
