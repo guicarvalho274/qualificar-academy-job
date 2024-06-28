@@ -100,28 +100,34 @@
 
                         <div class="box">
                             <div class="icon">
-
+                                <img src="<?php echo INCLUDE_PATH;?>imagens/img-box-2.svg" alt="">
                             </div><!--icon-->
                             <div class="texto">
                                 <h2>Vagas disponíveis</h2>
                                 <p>Restam <span>5 vagas</span> para serem ocupadas
                                 no cargo de vendedor</p>
                             </div>
-                        </div>
+                        </div><!--box-->
                         <div class="box">
-                            <div class="icon"></div>
+                            <div class="icon">
+                                <img src="<?php echo INCLUDE_PATH;?>imagens/images/img-box-3" alt="">
+                            </div><!--icon-->
                             <div class="texto">
-                                <h2></h2>
-                                <p></p>
-                            </div>
-                        </div>
+                                <h2>Regime trabalhista</h2>
+                                <p>O regime de trabalho para a vaga 
+                                é o de <span>Carteira Assinada - CLT</span></p>
+                            </div><!--texto-->
+                        </div><!--box-->
                         <div class="box">
-                            <div class="icon"></div>
+                            <div class="icon">
+                                <img src="<?php echo INCLUDE_PATH;?>imagens/img-box-4.svg" alt="">
+                            </div><!--icon-->
                             <div class="texto">
-                                <h2></h2>
-                                <p></p>
-                            </div>
-                        </div>
+                                <h2>Horários e dias</h2>
+                                <p>De <span>segunda à sábado</span> do horário de
+                                <span>08h às 18h</span></p>
+                            </div><!--texto-->
+                        </div><!--box-->
 
                     </div><!--box-->
                 </div><!--flex-->
