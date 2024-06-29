@@ -4,6 +4,12 @@
 }
 
 @font-face {
+    font-family: 'Montserrat bold';
+    src: url('../fonts/Montserrat-Bold.ttf') format('Truetype');
+}
+
+
+@font-face {
     font-family: 'Montserrat black', sans-serif;
     src: url('../fonts/Montserrat-Black.ttf') format('Truetype');
 }
@@ -40,6 +46,20 @@ body,html{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.subtitle{
+    padding: 10px 30px;
+    border: 1px solid var(--color-pp--);
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.subtitle p{
+    color: var(--color-pp--);
+    font-size: 16px;
+    font-family: 'Montserrat bold', sans-serif;
 }
 /*Framework*/
 
@@ -536,6 +556,9 @@ section.sessao-two .container .bg .content > h3 span{
 }
 
 @media screen and (max-width: 700px){
+    section.sessao-two{
+        margin-bottom: 45px;
+    }
     section.sessao-two .container .bg{
         padding: 35px;
     }
@@ -557,6 +580,9 @@ section.sessao-two .container .bg .content > h3 span{
 }
 
 @media screen and (max-width: 600px){
+    section.sessao-two{
+        margin-bottom: 30px;
+    }
     section.sessao-two .container .bg .content .box .icon{
         width: 50px;
         height: 50px;
@@ -598,3 +624,690 @@ section.sessao-two .container .bg .content > h3 span{
     }
 }
 /*Section two*/
+
+/*Section three*/
+section.sessao-three{
+    width: 100%;
+    margin-bottom: 74px;
+}
+
+section.sessao-three .container .flex .col-one{
+    width: 45%;
+}
+
+section.sessao-three .container .flex .col-one h2{
+    font-family: 'Montserrat black', sans-serif;
+    font-size: 26px;
+    color: var(--color-black--);
+    margin-bottom: 20px;
+}
+
+section.sessao-three .container .flex .col-one h2 span{
+    color: var(--color-pp--);
+}
+
+section.sessao-three .container .flex .col-one > p{
+    color: var(--color-light--);
+    font-size: 16px;
+    font-family: 'Montserrat medium', sans-serif;
+}
+
+section.sessao-three .container .flex .col-one p span{
+    font-family: 'Montserrat black', sans-serif;
+}
+
+section.sessao-three .container .flex .col-two{
+    width: 55%;
+    text-align: right;
+    height: 680px;
+    position: relative;
+}
+
+section.sessao-three .container .flex .col-two .img{
+    position: absolute;
+    height: 50%;
+    width: 367px;
+    border-radius: 20px;
+}
+
+section.sessao-three .container .flex .col-two .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+section.sessao-three .container .flex .col-two .img.one{
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section.sessao-three .container .flex .col-two .img.two{
+    bottom: 40px;
+    left: 45px;
+    z-index: 1000;
+}
+
+section.sessao-three .container .flex .col-two .img.three{
+    bottom: 120px;
+    right: 0;
+}
+
+@media screen and (max-width: 970px) {
+    section.sessao-three .container .flex .col-one{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    section.sessao-three .container .flex .col-two{
+        width: 100%;
+        height: 450px;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    section.sessao-three{
+        width: 100%;
+        margin-bottom: 30px !important;
+    }
+    section.sessao-three .container .flex .col-one h2{
+        font-size: 22px;
+    }
+    section.sessao-three .container .flex .col-one > p{
+        font-size: 14px;
+    } 
+}
+
+@media screen and (max-width: 650px){
+    section.sessao-three{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    section.sessao-three .container .flex .col-one h2{
+        font-size: 18px;
+    }
+
+    section.sessao-three .container .flex .col-two{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    section.sessao-three .container .flex .col-two .img{
+        position: static;
+        top: none;
+        left: none;
+        height: 250px;
+        width: 100%;
+        transform: translateX(0px) !important;
+    }
+    section.sessao-three .container .flex .col-two .img.one{
+        width: 100%;
+        top: none;
+        left: none;
+        margin-bottom: 25px;
+    }
+    section.sessao-three .container .flex .col-two .img.one img{
+        object-position: center;
+    }
+    
+    section.sessao-three .container .flex .col-two .img.two{
+        width: 48%;
+    }
+    
+    section.sessao-three .container .flex .col-two .img.three{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    section.sessao-three .container .flex .col-two .img{
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    section.sessao-three .container .flex .col-two .img.one{
+        width: 100%;
+        top: none;
+        left: none;
+        margin-bottom: 15px;
+    }
+}
+/*Section three*/
+
+/*Section four*/
+section.sessao-four{
+    width: 100%;
+    margin-bottom: 74px;
+}
+
+section.sessao-four .container .flex .col-one{
+    width: 55%;
+    height: 493px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+section.sessao-four .container .flex .col-one .box{
+    width: calc(100% / 2 - 12.5px);
+    height: 100%;
+}
+
+section.sessao-four .container .flex .col-one .box .h100{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+section.sessao-four .container .flex .col-one .box .h100 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+section.sessao-four .container .flex .col-one .box > .h50{
+    height: calc(50% - 12.5px);
+    width: 100%;
+    border-radius: 20px;
+}
+
+section.sessao-four .container .flex .col-one .box > .h50:first-child{
+    margin-bottom: 25px;
+}
+
+section.sessao-four .container .flex .col-one .box > .h50 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+section.sessao-four .container .flex .col-two{
+    width: 40%;
+}
+
+section.sessao-four .container .flex .col-two > p{
+    color: var(--color-light--);
+    font-size: 16px;
+    font-family: 'Montserrat medium', sans-serif;
+    margin-bottom: 20px;
+}
+
+section.sessao-four .container .flex .col-two > p span{
+    font-family: 'Montserrat black', sans-serif;
+}
+
+
+section.sessao-four .container .flex .col-two h3{
+    font-family: 'Montserrat black', sans-serif;
+    font-size: 26px;
+    color: var(--color-black--);
+    margin-bottom: 30px;
+}
+
+section.sessao-four .container .flex .col-two h3 span{
+    color: var(--color-pp--);
+}
+
+section.sessao-four .container .flex .col-two .btn-action{
+    padding: 10px 30px;
+    border-radius: 8px;
+    background: var(--color-pp--);
+    display: inline-block;
+    cursor: pointer;
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+section.sessao-four .container .flex .col-two .btn-action:hover{
+    background: var(--color-pp-hover--);
+}
+
+section.sessao-four .container .flex .col-two .btn-action p{
+    color: var(--color-white--);
+    font-family: 'Montserrat black', sans-serif;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 970px) {
+    section.sessao-three{
+        margin-bottom: 30px;
+    }
+    section.sessao-four .container .flex .col-one{
+        display: none;
+    }
+
+    section.sessao-four .container .flex .col-two{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    section.sessao-three{
+        width: 100%;
+        margin-bottom: 45px;
+    }
+    section.sessao-four{
+        margin-bottom: 45px;
+    }
+    section.sessao-four .container .flex .col-two h3{
+        font-size: 22px;
+    }
+    
+    section.sessao-four .container .flex .col-two > p{
+        font-size: 14px;
+    } 
+
+    section.sessao-four .container .flex .col-two .btn-action p{
+        color: var(--color-white--);
+        font-family: 'Montserrat black', sans-serif;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    section.sessao-four{
+        margin-bottom: 30px;
+    }
+
+    section.sessao-four .container .flex .col-two h3{
+        font-size: 18px;
+    }
+
+    section.sessao-four .container .flex .col-two .btn-action p{
+        color: var(--color-white--);
+        font-family: 'Montserrat black', sans-serif;
+        font-size: 16px;
+    }
+}
+/*Section four*/
+
+/*Section five*/
+section.sessao-five{
+    width: 100%;
+    margin-bottom: 74px;
+}
+
+section.sessao-five .container{
+    text-align: center;
+}
+
+section.sessao-five .container > h2{
+    font-size: 26px;
+    color: var(--color-black--);
+    font-family: 'Montserrat black', sans-serif;
+    max-width: 920px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+section.sessao-five .container > h2:last-child{
+    margin-bottom: 40px;
+}
+
+section.sessao-five .container > h2 span{
+    color: var(--color-pp--);
+}
+
+section.sessao-five .container .label{
+    max-width: 920px;
+    margin:0 auto ; 
+    background: #F6F6F6;
+    border: 1px solid #929292;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    padding: 20px 30px;
+    text-align: left;
+    cursor: pointer;
+    transition: .5s
+    cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+section.sessao-five .container .label:hover{
+    border-color: var(--color-black--);
+}
+
+section.sessao-five .container .label .content-primary h4{
+    font-family: 'Montserrat bold', sans-serif;
+    color: #6C6C6C;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+section.sessao-five .container .label:hover h4{
+    color: var(--color-black--);
+}
+
+section.sessao-five .container .label .content-primary .icon{
+    width: 21px;
+    height: 10px;
+}
+
+section.sessao-five .container .label .content-primary .icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+section.sessao-five .container h6{
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Montserrat medium', sans-serif;
+}
+
+section.sessao-five .container .btn-action{
+    padding: 10px 60px;
+    border-radius: 8px;
+    background: var(--color-pp--);
+    display: inline-block;
+    cursor: pointer;
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+section.sessao-five .container .btn-action:hover{
+    background: var(--color-pp-hover--);
+}
+
+section.sessao-five .container .btn-action p{
+    color: var(--color-white--);
+    font-family: 'Montserrat black', sans-serif;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 700px) {
+    section.sessao-five{
+        margin-bottom: 45px;
+    }
+    section.sessao-five .container > h2{
+        font-size: 22px;
+    }
+    
+    section.sessao-five .container > h2:last-child{
+        margin-bottom: 30px;
+    }
+    section.sessao-five .container .label .content-primary h4{
+        font-size: 14px;
+    }
+    section.sessao-five .container h6{
+        font-size: 16px;
+    }
+    section.sessao-five .container .btn-action p{
+        color: var(--color-white--);
+        font-family: 'Montserrat black', sans-serif;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section.sessao-five{
+        margin-bottom: 30px;
+    }
+    section.sessao-five .container > h2{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    section.sessao-five .container > h2:last-child{
+        margin-bottom: 30px;
+    }
+    section.sessao-five .container .label{
+        margin-bottom: 20px;
+    }
+    section.sessao-five .container .label .content-primary h4{
+        font-size: 14px;
+    }
+    section.sessao-five .container h6{
+        font-size: 14px;
+    }
+    section.sessao-five .container .btn-action p{
+        color: var(--color-white--);
+        font-family: 'Montserrat black', sans-serif;
+        font-size: 16px;
+    }
+}
+/*Section five*/
+
+/*Sessao seven*/
+section.sessao_seven{
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+section.sessao_seven .container{
+    text-align: center;
+    padding-top: 0px !important;
+}
+
+section.sessao_seven .container h4{
+    color: #C0C0C0;
+    font-size: 18px;
+    font-family: 'Mulish medium', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+section.sessao_seven .container h2{
+    font-size: 38px;
+    color: var(--color-titulo--);
+    font-family: 'Mulish black', sans-serif;
+    margin-bottom: 33px;
+}
+
+section.sessao_seven .container form{
+    width: 90%;
+    margin: 0 auto;
+}
+
+section.sessao_seven .container form .flex .input{
+    width: calc(100% /2 - 15px);
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+section.sessao_seven .container form .flex .input label{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+    color: var(--color-titulo--);
+    font-size: 20px;
+    font-family: 'Mulish medium', sans-serif;
+}
+
+section.sessao_seven .container form .flex .input input{
+    width: 100%;
+    background: #FBFBFB;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid #DBDBDB;
+    color: rgb(58, 58, 58);
+    font-size: 14px;
+    font-family: 'Mulish medium', sans-serif;
+    cursor: text;
+}
+
+section.sessao_seven .container form .flex .input input::placeholder{
+    color: #D2D2D2;
+}
+
+section.sessao_seven .container form .flex .input input:focus{
+    border-color: var(--color-pp--);
+    outline: none;
+    box-shadow: 0px 0px 5px #ffaf9b;
+}
+
+section.sessao_seven .container form .flex .input select{
+    width: 100%;
+    background: #FBFBFB;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid #DBDBDB;
+    color: rgb(58, 58, 58);
+    font-size: 14px;
+    font-family: 'Mulish medium', sans-serif;
+}
+
+section.sessao_seven .container form .flex .input select:focus{
+    border-color: var(--color-pp--);
+    outline: none;
+    box-shadow: 0px 0px 5px #9bbcff;
+}
+
+section.sessao_seven .container form .submit{
+    width: 100%;
+    background: var(--color-pp--);
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 10px 60px;
+    border-radius: 8px;
+}
+
+section.sessao_seven .container form .submit .load{
+    position: absolute;
+    margin: auto 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid var(--color-pp--);
+    border-top-color: var(--color-white--);
+    animation-name: loading;
+    animation-duration: .6s;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-iteration-count: infinite;
+    display: none;
+}
+@keyframes loading {
+    0%{
+        transform: rotate(0deg); 
+    }100%{
+        transform: rotate(360deg); 
+    }
+}
+
+section.sessao_seven .container form .submit input[type=submit]{
+    font-size: 22px;
+    color: white;
+    font-family: 'Mulish black', sans-serif;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    transition: .6s;
+}
+
+section.sessao_seven .container form .submit:hover{
+    background: var(--color-pp-hover--);
+}
+
+@media screen and (max-width: 900px) {
+    section.sessao_seven .container{
+        padding: 40px 50px;
+        border-radius: 40px;
+    }
+
+    section.sessao_seven .container h4{
+        font-size: 16px;
+    }
+
+    section.sessao_seven .container h2{
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    section.sessao_seven .container form .flex .input label{
+        font-size: 16px;
+    }
+
+    section.sessao_seven .container form .flex .input input{
+        padding: 10px 20px;
+        font-size: 12px;
+        border-radius: 8px;
+    }
+
+    section.sessao_seven .container form .flex .input select{
+        padding: 10px 20px;
+        font-size: 12px;
+        border-radius: 8px;
+    }
+    section.sessao_seven .container form .submit{
+        padding: 10px 15px;
+        max-width: 270px;
+    }
+
+    section.sessao_seven .container form .submit input[type=submit]{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    section.sessao_seven .container h2{
+        margin-bottom: 30px;
+    }
+
+    section.sessao_seven .container form .flex .input{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    section.sessao_seven{
+        padding-bottom: 30px;
+    }
+
+    section.sessao_seven .container{
+        padding: 40px 20px;
+        border-radius: 30px;
+    }
+
+    section.sessao_seven .container h4{
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    section.sessao_seven .container h2{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    section.sessao_seven .container form .flex .input label{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    section.sessao_seven .container h4{
+        font-size: 12px;
+    }
+
+    section.sessao_seven .container h2{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    section.sessao_seven .container form .flex .input label{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+/*Sessao sic*/
